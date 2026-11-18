@@ -11,6 +11,15 @@ Bookmarklet that blurs GTA VI spoilers on the current page. Built for Samsung In
 
 Tap again to turn it off. Tap a blurred item to reveal it.
 
+## Firefox + uBlock Origin (automatic, recommended)
+
+[`ubo-filters.txt`](ubo-filters.txt) hides matching posts/videos/comments on YouTube, Reddit, X, Google and a few gaming sites, on every page load.
+
+- **Subscribe (auto-updates):** uBlock Origin dashboard → *Filter lists* → *Import* → paste `https://raw.githubusercontent.com/stf-psn/gta6-spoiler-blocker/main/ubo-filters.txt` → *Apply changes*.
+- **Or paste once:** dashboard → *My filters* → paste the file content → *Apply changes*.
+
+uBO discards generic procedural filters, so only the listed sites are covered; add more in `build.js`.
+
 ## How it works
 
 - **`KW`** (game terms: GTA, GTA 6/VI, Vice City, Leonida, Lucia, Jason, Rockstar…): always blurred.
@@ -26,10 +35,10 @@ Tap again to turn it off. Tap a blurred item to reveal it.
 
 ## Development
 
-Edit `src.js`, then regenerate the bookmarklet:
+Edit keywords in `src.js` (`KW`, `SP_IT_EN`) or sites in `build.js`, then regenerate `bookmarklet.txt` and `ubo-filters.txt`:
 
 ```sh
-node -e 'const fs=require("fs");fs.writeFileSync("bookmarklet.txt","javascript:"+fs.readFileSync("src.js","utf8").split("\n").map(l=>l.trim()).join("")+"\n")'
+node build.js
 ```
 
 `src.js` must not contain `//` comments (the build joins lines).
