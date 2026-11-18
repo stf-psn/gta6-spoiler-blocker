@@ -1,7 +1,7 @@
 (()=>{
 const W=window;
 if(W.__g6){W.__g6.off();return}
-const SEMPRE=false;
+const SEMPRE=true;
 const KW=/\bgta\b|gta\s*-?\s*(vi|6)|grand\s+theft\s+auto|\bleonida\b|vice\s*city|\blucia\s+caminos|jason\s+duval|port\s+gellhorn|grassrivers|mount\s+kalaga|\bambrosia\b|rockstar|\bcaminos\b|\bduval\b|\blucia\b|\bjason\b/i;
 const SP=/\b(final[ei]?|endings?|epilog(o|ue|hi)?|betray(s|ed|al|er|ing)?|tradiment[oi]|tradi(sce|scono|to|ta|tore|trice)|muor[eo]|morte|mort[oaie]|die[sd]?|death|kill(s|ed|er)?|uccid[eo]|uccis[oaie]|ammazza|plot\s*twist|twist|colpo\s+di\s+scena|spoiler[s]?|leak(s|ed)?|trapelat[oaie]|trama|plot|story(line)?|storia|cutscenes?|rivelat[oaie]|reveal(s|ed)?|scoperto|segreto|secret|boss|mission[ei]?|missions?)\b/i;
 const CARD='article,[role=article],li,tr,figure,ytd-rich-item-renderer,ytd-video-renderer,ytd-compact-video-renderer,ytd-comment-thread-renderer,ytm-rich-item-renderer,ytm-video-with-context-renderer,ytm-comment-thread-renderer,shreddit-post,shreddit-comment,[data-testid=cellInnerDiv],[data-testid=tweet]';
