@@ -19,3 +19,22 @@ x.com,twitter.com##[data-testid="cellInnerDiv"]:has-text(/\bgta\b|gta\s*-?\s*(vi
 google.com,google.it###rso > div:has-text(/\bgta\b|gta\s*-?\s*(vi|6)|grand\s+theft\s+auto|\bleonida\b|vice\s*city|\blucia\s+caminos|jason\s+duval|port\s+gellhorn|grassrivers|mount\s+kalaga|\bambrosia\b|rockstar|\bcaminos\b|\bduval\b|gta\s*sei\b|\blucia\b|\bjason\b|\b(fine\s+del\s+gioco|colpo\s+di\s+scena|fuga\s+di\s+notizie|scena\s+finale|si\s+sacrifica|finale|finali|conclusione|epilogo|tradimento|tradimenti|tradisce|tradiscono|tradito|tradita|traditore|traditrice|muore|muoiono|morte|morto|morta|morti|uccide|uccidono|ucciso|uccisa|uccisi|uccisione|omicidio|assassinato|assassinata|spoiler|spoilerare|spoilerato|trapelato|trapelati|trama|storia|filmato|filmati|rivelato|rivelata|rivelazione|rivelazioni|segreto|segreti|scoperto|scopre|boss|missione|missioni|cattivo|antagonista|sacrificio|sopravvive|sopravvivono|arrestato|arrestata|the\s+end|plot\s+twist|final|ending|endings|conclusion|epilogue|betray|betrays|betrayed|betrayal|betrayer|traitor|dies|die|died|dying|death|dead|kill|kills|killed|killer|killing|murder|murdered|twist|twists|spoiler|spoilers|spoiled|leak|leaks|leaked|plot|story|storyline|cutscene|cutscenes|reveal|reveals|revealed|revelation|secret|secrets|discovered|boss|mission|missions|villain|antagonist|sacrifice|sacrifices|survives|survive|arrested)\b/i)
 google.com,google.it###botstuff div[data-hveid]:has-text(/\bgta\b|gta\s*-?\s*(vi|6)|grand\s+theft\s+auto|\bleonida\b|vice\s*city|\blucia\s+caminos|jason\s+duval|port\s+gellhorn|grassrivers|mount\s+kalaga|\bambrosia\b|rockstar|\bcaminos\b|\bduval\b|gta\s*sei\b|\blucia\b|\bjason\b|\b(fine\s+del\s+gioco|colpo\s+di\s+scena|fuga\s+di\s+notizie|scena\s+finale|si\s+sacrifica|finale|finali|conclusione|epilogo|tradimento|tradimenti|tradisce|tradiscono|tradito|tradita|traditore|traditrice|muore|muoiono|morte|morto|morta|morti|uccide|uccidono|ucciso|uccisa|uccisi|uccisione|omicidio|assassinato|assassinata|spoiler|spoilerare|spoilerato|trapelato|trapelati|trama|storia|filmato|filmati|rivelato|rivelata|rivelazione|rivelazioni|segreto|segreti|scoperto|scopre|boss|missione|missioni|cattivo|antagonista|sacrificio|sopravvive|sopravvivono|arrestato|arrestata|the\s+end|plot\s+twist|final|ending|endings|conclusion|epilogue|betray|betrays|betrayed|betrayal|betrayer|traitor|dies|die|died|dying|death|dead|kill|kills|killed|killer|killing|murder|murdered|twist|twists|spoiler|spoilers|spoiled|leak|leaks|leaked|plot|story|storyline|cutscene|cutscenes|reveal|reveals|revealed|revelation|secret|secrets|discovered|boss|mission|missions|villain|antagonist|sacrifice|sacrifices|survives|survive|arrested)\b/i)
 everyeye.it,multiplayer.it,spaziogames.it,ign.com,eurogamer.it,gamesradar.com,kotaku.com,thegamer.com##article:has-text(/\bgta\b|gta\s*-?\s*(vi|6)|grand\s+theft\s+auto|\bleonida\b|vice\s*city|\blucia\s+caminos|jason\s+duval|port\s+gellhorn|grassrivers|mount\s+kalaga|\bambrosia\b|rockstar|\bcaminos\b|\bduval\b|gta\s*sei\b|\blucia\b|\bjason\b|\b(fine\s+del\s+gioco|colpo\s+di\s+scena|fuga\s+di\s+notizie|scena\s+finale|si\s+sacrifica|finale|finali|conclusione|epilogo|tradimento|tradimenti|tradisce|tradiscono|tradito|tradita|traditore|traditrice|muore|muoiono|morte|morto|morta|morti|uccide|uccidono|ucciso|uccisa|uccisi|uccisione|omicidio|assassinato|assassinata|spoiler|spoilerare|spoilerato|trapelato|trapelati|trama|storia|filmato|filmati|rivelato|rivelata|rivelazione|rivelazioni|segreto|segreti|scoperto|scopre|boss|missione|missioni|cattivo|antagonista|sacrificio|sopravvive|sopravvivono|arrestato|arrestata|the\s+end|plot\s+twist|final|ending|endings|conclusion|epilogue|betray|betrays|betrayed|betrayal|betrayer|traitor|dies|die|died|dying|death|dead|kill|kills|killed|killer|killing|murder|murdered|twist|twists|spoiler|spoilers|spoiled|leak|leaks|leaked|plot|story|storyline|cutscene|cutscenes|reveal|reveals|revealed|revelation|secret|secrets|discovered|boss|mission|missions|villain|antagonist|sacrifice|sacrifices|survives|survive|arrested)\b/i)
+! Full block: YouTube and Facebook (pages, embeds, video streams)
+||youtube.com^
+||youtube.com^$document
+||youtu.be^
+||youtu.be^$document
+||youtube-nocookie.com^
+||youtube-nocookie.com^$document
+||ytimg.com^
+||ytimg.com^$document
+||googlevideo.com^
+||googlevideo.com^$document
+||facebook.com^
+||facebook.com^$document
+||fb.com^
+||fb.com^$document
+||fb.watch^
+||fb.watch^$document
+||messenger.com^
+||messenger.com^$document

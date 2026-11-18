@@ -18,6 +18,8 @@ Tap again to turn it off. Tap a blurred item to reveal it.
 - **Subscribe (auto-updates):** uBlock Origin dashboard → *Filter lists* → *Import* → paste `https://raw.githubusercontent.com/stf-psn/gta6-spoiler-blocker/main/ubo-filters.txt` → *Apply changes*.
 - **Or paste once:** dashboard → *My filters* → paste the file content → *Apply changes*.
 
+It also fully blocks YouTube and Facebook (pages, embeds and video streams); uBO shows a block page with a *Proceed* button.
+
 uBO discards generic procedural filters, so only the listed sites are covered; add more in `build.js`.
 
 ## How it works
